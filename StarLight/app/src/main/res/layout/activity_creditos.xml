@@ -1,0 +1,127 @@
+<?xmlns version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e00df"
+    android:orientation="vertical"
+    tools:context=".Creditos">
+
+    <Button
+        android:id="@+id/Voltar"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/botao"
+        android:text="@string/voltar"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/q" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/w" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/e" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageView1"
+        android:contentDescription="@string/todo2"
+        app:srcCompat="@drawable/icone" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="70dp"
+        android:contentDescription="@string/todo2"
+        app:srcCompat="@drawable/starlight" />
+
+    <TextView
+        android:id="@+id/douglas"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:text="@string/Douglas"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tayna"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="190dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:text="@string/Tayna"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/diego"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="280dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:text="@string/Diego"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/externo"
+        android:layout_width="338dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tcc"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+</RelativeLayout>

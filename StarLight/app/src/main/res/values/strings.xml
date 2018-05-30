@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Star Light</string>
+    <string name="cozinha">Cozinha</string>
+    <string name="conectar">Conectar</string>
+    <string name="sala">Sala</string>
+    <string name="quarto">Quarto</string>
+    <string name="banheiro">Banheiro</string>
+    <string name="Area_externa">Area Externa</string>
+    <string name="Creditos">Creditos</string>
+    <string name="desliga">Desligar</string>
+    <string name="liga">Ligar</string>
+    <string name="creditos">Creditos</string>
+    <string name="voltar">Voltar</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">todo2</string>
+    <string name="corredor">Corredor</string>
+    <string name="textview">TextView</string>
+    <string name="Douglas">Douglas Batista Macedo</string>
+    <string name="Tayna">Tayná Santos Silva</string>
+    <string name="Diego">Diego Bernadino Felix</string>
+    <string name="tcc">Projeto desenvolvido para o trabalho de conclusão de curso(TCC) do curso de
+        Ciência da Computação pela Universidade Nove de Julho - Santo Amaro, Noturno 7ºB </string>
+
+</resources>

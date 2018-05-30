@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#5e00df</color>
+    <color name="colorPrimaryDark">#350097</color>
+    <color name="colorAccent">#000</color>
+    <color name="desligar">#ff3231</color>
+    <color name="ligar">#58ff2f</color>
+    <color name="liga">#edffec</color>
+    <color name="desliga">#ffecec</color>
+    <color name="btn">#f3fafa</color>
+</resources>
+

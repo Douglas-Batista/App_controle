@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e00df"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/conexao"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/botao"
+        android:text="@string/conectar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled1"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/ligar"
+        android:text="@string/liga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled2"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/ligar"
+        android:text="@string/liga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled3"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/ligar"
+        android:text="@string/liga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled4"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/ligar"
+        android:text="@string/liga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled5"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="385dp"
+        android:background="@drawable/ligar"
+        android:text="@string/liga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled6"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/ligar"
+        android:text="@string/liga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled1d"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/pdesligar"
+        android:text="@string/desliga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled2d"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/pdesligar"
+        android:text="@string/desliga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled3d"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/pdesligar"
+        android:text="@string/desliga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled4d"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/pdesligar"
+        android:text="@string/desliga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled5d"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="385dp"
+        android:background="@drawable/pdesligar"
+        android:text="@string/desliga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bled6d"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/pdesligar"
+        android:text="@string/desliga"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quart1"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bled1"
+        android:layout_alignParentStart="true"
+        android:text="@string/sala"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quart2"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bled2"
+        android:layout_alignParentStart="true"
+        android:text="@string/cozinha"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quart3"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bled3"
+        android:layout_alignParentStart="true"
+        android:text="@string/quarto"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/corredor"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bled4"
+        android:layout_alignParentStart="true"
+        android:text="@string/corredor"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/quart4"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bled5"
+        android:layout_alignParentStart="true"
+        android:text="@string/banheiro"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/externo"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bled6"
+        android:layout_alignParentStart="true"
+        android:text="@string/Area_externa"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Creditos"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/botao"
+        android:text="@string/creditos"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageView1"
+        android:contentDescription="@string/todo2"
+        app:srcCompat="@drawable/icone" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="70dp"
+        android:contentDescription="@string/todo2"
+        app:srcCompat="@drawable/starlight" />
+
+</RelativeLayout>
+

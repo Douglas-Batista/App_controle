@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="comdouglas_batista.github.starlight">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:icon="@drawable/icone"
+        android:label="Star Light"
+        android:roundIcon="@drawable/icone"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".iniciacao"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Creditos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".listadispositivos"
+            android:label="Dispositivos Pareados"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
